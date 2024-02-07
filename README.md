@@ -24,13 +24,13 @@ One key visualization introduced was the node firing raster which showed at whic
 
 Next, the total number of active neurons was calculated by summing up the activated neurons in every population of the specific layer. The total number of active neurons is simply the number of neurons firing at a specific timestep. To make this feature more comparable, instead of having a continous time axis, the time component was broken down into conserved time bins which comprised of 14 ms fragments. Thus, as shown below, the total number of neurons fired really depicts the total number of neurons active in a given time fragment which made comparison between different simulations easier.
 
-![Image Alt text](/figs/RasterL4Horizontal.png)
+![Image Alt text](/figs/diagonal-r2l L4.png)
 
 Lastly, a number of statistical tools were used to analyze the neuronal activity when presented with different stimuli. Dynamic Time Warping (DTW) was one of the techniques and a visualization of the calculated difference in shown below.
 
 ![Image Alt text](/figs/warp.png)
 
-Some results of the investigation as shown below. Two stimuli responses are compared with each other at a given time and the differences between their total neuronal firing throughout time is shown in subsequent columns as RMSE values.
+Some results of the investigation as shown below. Two stimuli responses are compared with each other at a given time and the differences between their total neuronal firing throughout time is shown in subsequent columns as RMSE values. As expected, higher level layers had larger differences in the neural activation but interestingly, L2/3 and L6 had the highest RMSE values compared to the other layers.
 
 ![Image Alt text](/figs/rmse-results.png)
 
