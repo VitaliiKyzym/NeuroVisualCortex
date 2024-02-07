@@ -24,7 +24,7 @@ One key visualization introduced was the node firing raster which showed at whic
 
 Next, the total number of active neurons was calculated by summing up the activated neurons in every population of the specific layer. The total number of active neurons is simply the number of neurons firing at a specific timestep. To make this feature more comparable, instead of having a continous time axis, the time component was broken down into conserved time bins which comprised of 14 ms fragments. Thus, as shown below, the total number of neurons fired really depicts the total number of neurons active in a given time fragment which made comparison between different simulations easier.
 
-![Image Alt text](/figs/diagonal-r2l L4.png)
+![Image Alt text](/figs/diagonal-r2l-L4.png)
 
 Lastly, a number of statistical tools were used to analyze the neuronal activity when presented with different stimuli. Dynamic Time Warping (DTW) was one of the techniques and a visualization of the calculated difference in shown below.
 
