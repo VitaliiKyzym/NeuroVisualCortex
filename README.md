@@ -32,7 +32,7 @@ Lastly, a number of statistical tools were used to analyze the neuronal activity
 
 Some results of the investigation as shown below. Two stimuli responses are compared with each other at a given time and the differences between their total neuronal firing throughout time is shown in subsequent columns as RMSE values. As expected, higher level layers had larger differences in the neural activation but interestingly, L2/3 and L6 had the highest RMSE values compared to the other layers.
 
-![Image Alt text](/figs/rmse-results.png)
+![Image Alt text](/figs/rmse-results-table.png)
 
 
 
